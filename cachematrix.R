@@ -11,12 +11,12 @@
 ## cacheSolve takes as argument an object created by makeCacheMatrix and returns the 
 ## inverse of the data matrix recorded in that object
 ##
-## If cachesolve has not yet been applied to its argument, then it calculates the inverse
+## If cacheSolve has not yet been applied to its argument, then it calculates the inverse
 ## of the data matrix recorded in the argument and caches that inverse in the object
-## If cachesolve has already cached the inverse, then it is returned from the cache
+## If cacheSolve has already cached the inverse, then it is returned from the cache
 
 ## makeCacheMatrix initializes a cache-object for the inverse of a matrix, which
-## cachesolve then uses to return the inverse of the matrix and cache the inverse for
+## cacheSolve then uses to return the inverse of the matrix and cache the inverse for
 ## later use
 ## The set(newdata) component function of the caching-object is used to change the data
 ## matrix without rerunning makeCacheMatrix
